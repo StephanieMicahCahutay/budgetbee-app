@@ -179,6 +179,24 @@
       "category": "Allowance",
       "amount": 1000,
       "date": "2024-05-23"
+    },
+    {
+      "id": "6eab",
+      "category": "Transportation",
+      "amount": 1000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "964e",
+      "category": "Allowance",
+      "amount": 200,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "5d04",
+      "category": "Food & Drink",
+      "amount": 2000,
+      "date": "2024-05-23"
     }
   ],
   "budgets": [

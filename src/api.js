@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://budgetbee-server.vercel.app';
 
 export const fetchTransactions = async () => {
   const response = await axios.get(`${API_URL}/transactions`);
