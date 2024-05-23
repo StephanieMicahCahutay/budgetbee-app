@@ -1,0 +1,9 @@
+{
+    "transactions": [
+      { "id": 1, "category": "Food & Drink", "amount": 0, "date": "2023-09-30" },
+      { "id": 2, "category": "Transportation", "amount": 0, "date": "2023-09-30" },
+      { "id": 3, "category": "Food & Drink", "amount": 0, "date": "2023-10-01" },
+      { "id": 4, "category": "Transportation", "amount": 0, "date": "2023-10-01" },
+      { "id": 5, "category": "Transportation", "amount": 0, "date": "2023-10-01" }
+    ]
+  }
