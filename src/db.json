@@ -1,9 +1,198 @@
 {
-    "transactions": [
-      { "id": 1, "category": "Food & Drink", "amount": 0, "date": "2023-09-30" },
-      { "id": 2, "category": "Transportation", "amount": 0, "date": "2023-09-30" },
-      { "id": 3, "category": "Food & Drink", "amount": 0, "date": "2023-10-01" },
-      { "id": 4, "category": "Transportation", "amount": 0, "date": "2023-10-01" },
-      { "id": 5, "category": "Transportation", "amount": 0, "date": "2023-10-01" }
-    ]
-  }
+  "transactions": [
+    {
+      "id": 1,
+      "category": "Food & Drink",
+      "amount": 0,
+      "date": "2023-09-30"
+    },
+    {
+      "id": 2,
+      "category": "Transportation",
+      "amount": 0,
+      "date": "2023-09-30"
+    },
+    {
+      "id": 3,
+      "category": "Food & Drink",
+      "amount": 0,
+      "date": "2023-10-01"
+    },
+    {
+      "id": 4,
+      "category": "Transportation",
+      "amount": 0,
+      "date": "2023-10-01"
+    },
+    {
+      "id": 5,
+      "category": "Transportation",
+      "amount": 0,
+      "date": "2023-10-01"
+    },
+    {
+      "id": "b31c",
+      "category": "Transportation",
+      "amount": 300,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "3da5",
+      "category": "Food & Drink",
+      "amount": 1000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "5786",
+      "category": "Transportation",
+      "amount": 100,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "9223",
+      "category": "Food & Drink",
+      "amount": 200,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "f174",
+      "category": "Personal Care",
+      "amount": 400,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "81eb",
+      "category": "Transportation",
+      "amount": 300,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "5f13",
+      "category": "Transportation",
+      "amount": 100,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "5f65",
+      "category": "Transportation",
+      "amount": 500,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "ca4d",
+      "category": "Allowance",
+      "amount": 5000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "400a",
+      "category": "Food & Drink",
+      "amount": 200,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "9dff",
+      "category": "Food & Drink",
+      "amount": 2000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "063f",
+      "category": "Transportation",
+      "amount": 80,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "8f63",
+      "category": "Transportation",
+      "amount": 600,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "780c",
+      "category": "Allowance",
+      "amount": 700,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "a67c",
+      "category": "Allowance",
+      "amount": 80,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "f28d",
+      "category": "Food & Drink",
+      "amount": 90,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "0a7c",
+      "category": "Transportation",
+      "amount": 400,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "b0c7",
+      "category": "Allowance",
+      "amount": 4000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "396c",
+      "category": "Food & Drink",
+      "amount": 2000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "e318",
+      "category": "Transportation",
+      "amount": 100,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "fc78",
+      "category": "Personal Care",
+      "amount": 1000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "b275",
+      "category": "Food & Drink",
+      "amount": 200,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "30f8",
+      "category": "Health Care",
+      "amount": 1000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "aefa",
+      "category": "Allowance",
+      "amount": 3000,
+      "date": "2024-05-23"
+    },
+    {
+      "id": "58ac",
+      "category": "Allowance",
+      "amount": 1000,
+      "date": "2024-05-23"
+    }
+  ],
+  "budgets": [
+    {
+      "categoryId": "Food & Drink",
+      "amount": 120,
+      "period": "Monthly",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "categoryId": "Transportation",
+      "amount": 500,
+      "period": "Monthly"
+    }
+  ]
+}

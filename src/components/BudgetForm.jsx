@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
-import { TextField, MenuItem, FormControl, Select, InputLabel, Card, CardContent, Typography, Grid, Button } from '@mui/material';  
+import { TextField, MenuItem, FormControl, Select, InputLabel, Card, CardContent, Typography, Grid, Button } from '@mui/material';
 import { useTransactions } from '../context/TransactionContext';
-import { toast } from 'react-toastify';
 
 const BudgetForm = ({ category }) => {
-  const { addBudget, updateBudget, budgets } = useTransactions();
+  const { addBudget, budgets } = useTransactions();
   const [budget, setBudget] = useState({ period: 'Monthly', amount: '' });
 
   const handleSave = () => {
     const budgetData = { categoryId: category.name, amount: parseFloat(budget.amount), period: budget.period };
-    const existingBudget = budgets ? budgets[category.name] : null;
-    if (existingBudget) {
-      updateBudget(category.name, budgetData);
-    } else {
-      addBudget(category.name, budgetData);
-    }
-    toast.success(`Budget set for ${category.name}`);
+    addBudget(category.name, budgetData);
   };
 
   const handlePeriodChange = (event) => {
@@ -39,11 +32,7 @@ const BudgetForm = ({ category }) => {
           <Grid item xs>
             <FormControl fullWidth>
               <InputLabel>Period</InputLabel>
-              <Select
-                value={budget.period}
-                label="Period"
-                onChange={handlePeriodChange}
-              >
+              <Select value={budget.period} label="Period" onChange={handlePeriodChange}>
                 <MenuItem value="Daily">Daily</MenuItem>
                 <MenuItem value="Weekly">Weekly</MenuItem>
                 <MenuItem value="Monthly">Monthly</MenuItem>
@@ -52,13 +41,7 @@ const BudgetForm = ({ category }) => {
             </FormControl>
           </Grid>
           <Grid item xs>
-            <TextField
-              label="Amount"
-              type="number"
-              fullWidth
-              value={budget.amount}
-              onChange={handleAmountChange}
-            />
+            <TextField label="Amount" type="number" fullWidth value={budget.amount} onChange={handleAmountChange} />
           </Grid>
           <Grid item>
             <Button onClick={handleSave} variant="contained">Save</Button>

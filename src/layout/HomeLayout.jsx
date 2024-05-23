@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import { useTransactions } from '../context/TransactionContext';
 
 const HomeLayout = () => {
-  const { totalExpenses, allowance } = useTransactions(); // Ensure allowance is also managed here
+  const { totalExpenses, allowance } = useTransactions();
 
   return (
     <div style={{ padding: '20px' }}>
